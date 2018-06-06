@@ -2,8 +2,10 @@ flock = [5, 7, 300, 90, 24, 50, 75]
 month = 0
 sum = 0
 end = 1
+
 print("Hello my name is Anh and these are my sheep size:")
 print(flock)
+
 while True:
     maximum = max(flock)
     while True:
@@ -27,7 +29,7 @@ while True:
             for i in range(7):
                 sum = sum + flock[i]
             print("My flock has size in total", sum)
-            print("I would get", sum, "* 2$ =", sum * 2, "$" )
+            print("I would get ", sum, " * 2$ = ", sum * 2, "$", sep="")
             end = 0
             break
         else:
